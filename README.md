@@ -8,20 +8,20 @@
 
 <br>
 
-# 🚀 RooFlow 🌊
+# 🚀 SeawolfFlow 🌊
 
 **Persistent Project Context and Streamlined AI-Assisted Development**
 
-[![Roo Code](https://img.shields.io/badge/VS%20Code-Extension-blue.svg)](https://github.com/RooVetGit/Roo-Code)
-[![RooFlow](https://img.shields.io/badge/View%20on-GitHub-lightgrey.svg)](https://github.com/GreatScottyMac/RooFlow)
+[![Seawolf Code](https://img.shields.io/badge/VS%20Code-Extension-blue.svg)](https://github.com/SeawolfVetGit/Seawolf-Code)
+[![SeawolfFlow](https://img.shields.io/badge/View%20on-GitHub-lightgrey.svg)](https://github.com/GreatScottyMac/SeawolfFlow)
 
 </div>
 
 ## 🎯 Overview
 
-RooFlow enhances AI-assisted development in VS Code by providing **persistent project context** and **optimized mode interactions**, resulting in **reduced token consumption** and a more efficient workflow.  It builds upon the concepts of the Roo Code Memory Bank, but streamlines the process and introduces a more integrated system of modes. RooFlow ensures your AI assistant maintains a deep understanding of your project across sessions, even after interruptions.
+SeawolfFlow enhances AI-assisted development in VS Code by providing **persistent project context** and **optimized mode interactions**, resulting in **reduced token consumption** and a more efficient workflow.  It builds upon the concepts of the Seawolf Code Memory Bank, but streamlines the process and introduces a more integrated system of modes. SeawolfFlow ensures your AI assistant maintains a deep understanding of your project across sessions, even after interruptions.
 
-### Key Improvements over Roo Code Memory Bank:
+### Key Improvements over Seawolf Code Memory Bank:
 
 *   **Reduced Token Consumption:** Optimized prompts and instructions minimize token usage.
 *   **Five Integrated Modes:**  Architect, Code, Test, Debug, and Ask modes work together seamlessly.
@@ -33,8 +33,8 @@ RooFlow enhances AI-assisted development in VS Code by providing **persistent pr
 
 ```mermaid
 flowchart LR
-    A["RooFlow"] --> D["Toolkit"]
-    A["RooFlow"] --> M["Real-time Updates"]
+    A["SeawolfFlow"] --> D["Toolkit"]
+    A["SeawolfFlow"] --> M["Real-time Updates"]
     D --> C["Mode Rules"]
     B["Memory Bank"] --> E["Product Context"] & N["Active Context"] & F["Decisions"] & G["Progress"]
     C --> H["Architect"] & I["Code"] & J["Ask"] & K["Debug"] & L["Test"]
@@ -42,7 +42,7 @@ flowchart LR
 ```
 
 - 🧠 **Memory Bank**: Persistent storage for project knowledge (automatically managed).
-- 💻 **System Prompts**: YAML-based core instructions for each mode (`.roo/system-prompt-[mode]`).
+- 💻 **System Prompts**: YAML-based core instructions for each mode (`.Seawolf/system-prompt-[mode]`).
 - 🔧 **VS Code Integration**: Seamless development experience within VS Code.
 - ⚡ **Real-time Updates**:  Automatic Memory Bank updates triggered by significant events.
 
@@ -50,39 +50,39 @@ flowchart LR
 
    ###  1. Installation
 
-   1.  **Install Roo Code Extension:** Ensure you have the Roo Code extension installed in VS Code.
-   2.  **Download [RooFlow Files:](https://github.com/GreatScottyMac/RooFlow/tree/main/config)** Download the following files from this repository:
-   *   [`system-prompt-architect`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/.roo/system-prompt-architect)
-   *   [`system-prompt-ask`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/.roo/system-prompt-ask)
-   *   [`system-prompt-code`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/.roo/system-prompt-code)
-   *   [`system-prompt-debug`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/.roo/system-prompt-debug) 
-   *   [`system-prompt-test`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/system-prompt-test)
-   *   [`.roomodes`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/.roo/system-prompt-test)
-   *   [`insert-variables.cmd`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/insert-variables.cmd)For Windows OS
-   *   [`insert-variables.sh`](https://github.com/GreatScottyMac/RooFlow/blob/main/config/insert-variables.sh)For Unix/Linux/macOS
+   1.  **Install Seawolf Code Extension:** Ensure you have the Seawolf Code extension installed in VS Code.
+   2.  **Download [SeawolfFlow Files:](https://github.com/GreatScottyMac/SeawolfFlow/tree/main/config)** Download the following files from this repository:
+   *   [`system-prompt-architect`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-architect)
+   *   [`system-prompt-ask`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-ask)
+   *   [`system-prompt-code`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-code)
+   *   [`system-prompt-debug`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-debug) 
+   *   [`system-prompt-test`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/system-prompt-test)
+   *   [`.Seawolfmodes`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-test)
+   *   [`insert-variables.cmd`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/insert-variables.cmd)For Windows OS
+   *   [`insert-variables.sh`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/insert-variables.sh)For Unix/Linux/macOS
    3.  **Place Files in Project:**
-   *   Create a directory named `.roo` in your project's root directory.
-   *   Place the `system-prompt-[mode]` files inside the `.roo` directory.
-   * Place the `.roomodes` file in the project's root directory.
-   * Place the appropriate `insert-variables.[sh/cmd]` script for your platform in the project's root directory.
+   *   Create a directory named `.Seawolf` in your project's Seawolft directory.
+   *   Place the `system-prompt-[mode]` files inside the `.Seawolf` directory.
+   * Place the `.Seawolfmodes` file in the project's Seawolft directory.
+   * Place the appropriate `insert-variables.[sh/cmd]` script for your platform in the project's Seawolft directory.
 
    Your project structure should look like this:
 
    ```
-   project-root
-    ├── .roo
+   project-Seawolft
+    ├── .Seawolf
     |    ├── system-prompt-architect
     |    ├── system-prompt-ask
     |    ├── system-prompt-code
     |    ├── system-prompt-debug
     |    └── system-prompt-test
-    ├── memory-bank (This directory will be created automatically by Roo after your first prompt)
+    ├── memory-bank (This directory will be created automatically by Seawolf after your first prompt)
     |    ├── activeContext.md
     |    ├── decisionLog.md
     |    ├── productContext.md
     |    ├── progress.md
     |    └── systemPatterns.md               
-    ├── .roomodes
+    ├── .Seawolfmodes
     └──insert-variables.[sh/cmd]
 ```
    4. **Run insert-variables script**
@@ -115,7 +115,7 @@ flowchart LR
       ```
    3. Close Administrator PowerShell
    4. Try running the script again from your project directory
-   * **If you see "Error: .roo directory not found", verify your directory structure.**
+   * **If you see "Error: .Seawolf directory not found", verify your directory structure.**
    * **If using PowerShell 7+, run as:**
       ```powershell
       cmd /c insert-variables.cmd
@@ -140,7 +140,7 @@ flowchart LR
       ```bash
       chmod +x insert-variables.sh
       ```
-   * **If you see "Error: .roo directory not found", verify your directory structure**
+   * **If you see "Error: .Seawolf directory not found", verify your directory structure**
 
     
    #### Expected Output
@@ -157,27 +157,27 @@ flowchart LR
    - SHELL_PLACEHOLDER (e.g., "cmd" or "bash")
    - HOME_PLACEHOLDER (your home directory)
    - WORKSPACE_PLACEHOLDER (your project directory)
-   - GLOBAL_SETTINGS_PLACEHOLDER (Roo Code global settings path)
-   - MCP_LOCATION_PLACEHOLDER (Roo Code MCP directory path)
-   - MCP_SETTINGS_PLACEHOLDER (Roo Code MCP settings path)
+   - GLOBAL_SETTINGS_PLACEHOLDER (Seawolf Code global settings path)
+   - MCP_LOCATION_PLACEHOLDER (Seawolf Code MCP directory path)
+   - MCP_SETTINGS_PLACEHOLDER (Seawolf Code MCP settings path)
 
    #### Next Steps
    After running the script:
-   1. Verify that `.roo/system-prompt-*` files contain your system paths
-   2. Start using VS Code with the Roo Code extension
+   1. Verify that `.Seawolf/system-prompt-*` files contain your system paths
+   2. Start using VS Code with the Seawolf Code extension
    3. The Memory Bank will be initialized on first use
 
-   ### 2. Using RooFlow
+   ### 2. Using SeawolfFlow
 
-   1.  **Start a Chat:** Open a new Roo Code chat in your project.
+   1.  **Start a Chat:** Open a new Seawolf Code chat in your project.
    2.  **Select a Mode:** Choose the appropriate mode (Architect, Code, Test, Debug, Ask) for your task.
-   3.  **Interact with Roo:**  Give Roo instructions and ask questions. Roo will automatically use the Memory Bank to maintain context.
-   4.  **Memory Bank Initialization:**  If you start a chat in a project *without* a `memory-bank/` directory, Roo will suggest switching to Architect mode and guide you through the initialization process.
+   3.  **Interact with Seawolf:**  Give Seawolf instructions and ask questions. Seawolf will automatically use the Memory Bank to maintain context.
+   4.  **Memory Bank Initialization:**  If you start a chat in a project *without* a `memory-bank/` directory, Seawolf will suggest switching to Architect mode and guide you through the initialization process.
    5. **"Update Memory Bank" Command:** At any time, you can type "Update Memory Bank" or "UMB" to force a synchronization of the chat session's information into the Memory Bank. This is useful for ensuring continuity across sessions or before switching modes.
 
 ## 📚 Memory Bank Structure
 
-The Memory Bank is a directory named `memory-bank` located in your project's root. It contains several Markdown files that store different aspects of your project's knowledge:
+The Memory Bank is a directory named `memory-bank` located in your project's Seawolft. It contains several Markdown files that store different aspects of your project's knowledge:
 
 | File                 | Purpose                                                                                                                               |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -187,13 +187,13 @@ The Memory Bank is a directory named `memory-bank` located in your project's roo
 | `progress.md`        | Tracks the progress of the project, including completed work, current tasks, and next steps.  Uses a task list format.               |
 | `systemPatterns.md` | (Optional) Documents recurring patterns and standards used in the project (coding patterns, architectural patterns, testing patterns). |
 
-RooFlow automatically manages these files. You generally don't need to edit them directly, although you can review them to understand the AI's knowledge.
+SeawolfFlow automatically manages these files. You generally don't need to edit them directly, although you can review them to understand the AI's knowledge.
 
 ## ✨ Features
 
 ### 🧠 Persistent Context
 
-RooFlow remembers project details across sessions, maintaining a consistent understanding of your codebase, design decisions, and progress.
+SeawolfFlow remembers project details across sessions, maintaining a consistent understanding of your codebase, design decisions, and progress.
 
 ### ⚡ Real-time Updates
 
@@ -205,14 +205,14 @@ The five modes (Architect, Code, Test, Debug, Ask) are designed to work together
 
 ### ⬇️ Reduced Token Consumption
 
-RooFlow is designed to use fewer tokens than previous systems, making it more efficient and cost-effective.
+SeawolfFlow is designed to use fewer tokens than previous systems, making it more efficient and cost-effective.
 
 ## 📝 UMB Command
 The command "Update Memory Bank" or "UMB" can be given at any time to update the memory bank with information from the current chat session.
 
 ## Contributing
 
-Contributions to RooFlow are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file (you'll need to create this) for guidelines.
+Contributions to SeawolfFlow are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file (you'll need to create this) for guidelines.
 
 ## License
   [Apache 2.0](LICENSE)
