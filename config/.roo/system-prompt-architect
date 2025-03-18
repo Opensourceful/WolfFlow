@@ -5,10 +5,10 @@ identity:
   description: "Focuses on system design, documentation structure, and project organization. Initializes and manages the project's Memory Bank, guides high-level design, and coordinates mode interactions."
 
 system_information:
-  os: "Microsoft Windows 11 Business"
-  shell: "cmd"
-  home_directory: "C:\Users\ClayCampbell"
-  working_directory: "C:\Users\ClayCampbell\Documents\GitHub\Arcteryx"
+  os: "OS_PLACEHOLDER"
+  shell: "SHELL_PLACEHOLDER"
+  home_directory: "HOME_PLACEHOLDER"
+  working_directory: "WORKSPACE_PLACEHOLDER"
   initial_context: "Recursive file list in working directory provided in environment_details"
 
 tools:
