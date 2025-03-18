@@ -8,18 +8,18 @@
 
 <br>
 
-# 🚀 SeawolfFlow 🌊
+# 🚀 Seawolf Flow 🌊
 
 **Persistent Project Context and Streamlined AI-Assisted Development**
 
 [![Seawolf Code](https://img.shields.io/badge/VS%20Code-Extension-blue.svg)](https://github.com/SeawolfVetGit/Seawolf-Code)
-[![SeawolfFlow](https://img.shields.io/badge/View%20on-GitHub-lightgrey.svg)](https://github.com/GreatScottyMac/SeawolfFlow)
+[![Seawolf Flow](https://img.shields.io/badge/View%20on-GitHub-lightgrey.svg)](https://github.com/GreatScottyMac/Seawolf Flow)
 
 </div>
 
 ## 🎯 Overview
 
-SeawolfFlow enhances AI-assisted development in VS Code by providing **persistent project context** and **optimized mode interactions**, resulting in **reduced token consumption** and a more efficient workflow.  It builds upon the concepts of the Seawolf Code Memory Bank, but streamlines the process and introduces a more integrated system of modes. SeawolfFlow ensures your AI assistant maintains a deep understanding of your project across sessions, even after interruptions.
+Seawolf Flow enhances AI-assisted development in VS Code by providing **persistent project context** and **optimized mode interactions**, resulting in **reduced token consumption** and a more efficient workflow.  It builds upon the concepts of the Seawolf Code Memory Bank, but streamlines the process and introduces a more integrated system of modes. Seawolf Flow ensures your AI assistant maintains a deep understanding of your project across sessions, even after interruptions.
 
 ### Key Improvements over Seawolf Code Memory Bank:
 
@@ -33,8 +33,8 @@ SeawolfFlow enhances AI-assisted development in VS Code by providing **persisten
 
 ```mermaid
 flowchart LR
-    A["SeawolfFlow"] --> D["Toolkit"]
-    A["SeawolfFlow"] --> M["Real-time Updates"]
+    A["Seawolf Flow"] --> D["Toolkit"]
+    A["Seawolf Flow"] --> M["Real-time Updates"]
     D --> C["Mode Rules"]
     B["Memory Bank"] --> E["Product Context"] & N["Active Context"] & F["Decisions"] & G["Progress"]
     C --> H["Architect"] & I["Code"] & J["Ask"] & K["Debug"] & L["Test"]
@@ -51,15 +51,15 @@ flowchart LR
    ###  1. Installation
 
    1.  **Install Seawolf Code Extension:** Ensure you have the Seawolf Code extension installed in VS Code.
-   2.  **Download [SeawolfFlow Files:](https://github.com/GreatScottyMac/SeawolfFlow/tree/main/config)** Download the following files from this repository:
-   *   [`system-prompt-architect`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-architect)
-   *   [`system-prompt-ask`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-ask)
-   *   [`system-prompt-code`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-code)
-   *   [`system-prompt-debug`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-debug) 
-   *   [`system-prompt-test`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/system-prompt-test)
-   *   [`.Seawolfmodes`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/.Seawolf/system-prompt-test)
-   *   [`insert-variables.cmd`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/insert-variables.cmd)For Windows OS
-   *   [`insert-variables.sh`](https://github.com/GreatScottyMac/SeawolfFlow/blob/main/config/insert-variables.sh)For Unix/Linux/macOS
+   2.  **Download [Seawolf Flow Files:](https://github.com/GreatScottyMac/Seawolf Flow/tree/main/config)** Download the following files from this repository:
+   *   [`system-prompt-architect`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/.Seawolf/system-prompt-architect)
+   *   [`system-prompt-ask`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/.Seawolf/system-prompt-ask)
+   *   [`system-prompt-code`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/.Seawolf/system-prompt-code)
+   *   [`system-prompt-debug`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/.Seawolf/system-prompt-debug) 
+   *   [`system-prompt-test`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/system-prompt-test)
+   *   [`.Seawolfmodes`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/.Seawolf/system-prompt-test)
+   *   [`insert-variables.cmd`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/insert-variables.cmd)For Windows OS
+   *   [`insert-variables.sh`](https://github.com/GreatScottyMac/Seawolf Flow/blob/main/config/insert-variables.sh)For Unix/Linux/macOS
    3.  **Place Files in Project:**
    *   Create a directory named `.Seawolf` in your project's Seawolft directory.
    *   Place the `system-prompt-[mode]` files inside the `.Seawolf` directory.
@@ -167,7 +167,7 @@ flowchart LR
    2. Start using VS Code with the Seawolf Code extension
    3. The Memory Bank will be initialized on first use
 
-   ### 2. Using SeawolfFlow
+   ### 2. Using Seawolf Flow
 
    1.  **Start a Chat:** Open a new Seawolf Code chat in your project.
    2.  **Select a Mode:** Choose the appropriate mode (Architect, Code, Test, Debug, Ask) for your task.
@@ -187,13 +187,13 @@ The Memory Bank is a directory named `memory-bank` located in your project's Sea
 | `progress.md`        | Tracks the progress of the project, including completed work, current tasks, and next steps.  Uses a task list format.               |
 | `systemPatterns.md` | (Optional) Documents recurring patterns and standards used in the project (coding patterns, architectural patterns, testing patterns). |
 
-SeawolfFlow automatically manages these files. You generally don't need to edit them directly, although you can review them to understand the AI's knowledge.
+Seawolf Flow automatically manages these files. You generally don't need to edit them directly, although you can review them to understand the AI's knowledge.
 
 ## ✨ Features
 
 ### 🧠 Persistent Context
 
-SeawolfFlow remembers project details across sessions, maintaining a consistent understanding of your codebase, design decisions, and progress.
+Seawolf Flow remembers project details across sessions, maintaining a consistent understanding of your codebase, design decisions, and progress.
 
 ### ⚡ Real-time Updates
 
@@ -205,14 +205,14 @@ The five modes (Architect, Code, Test, Debug, Ask) are designed to work together
 
 ### ⬇️ Reduced Token Consumption
 
-SeawolfFlow is designed to use fewer tokens than previous systems, making it more efficient and cost-effective.
+Seawolf Flow is designed to use fewer tokens than previous systems, making it more efficient and cost-effective.
 
 ## 📝 UMB Command
 The command "Update Memory Bank" or "UMB" can be given at any time to update the memory bank with information from the current chat session.
 
 ## Contributing
 
-Contributions to SeawolfFlow are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file (you'll need to create this) for guidelines.
+Contributions to Seawolf Flow are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file (you'll need to create this) for guidelines.
 
 ## License
   [Apache 2.0](LICENSE)
