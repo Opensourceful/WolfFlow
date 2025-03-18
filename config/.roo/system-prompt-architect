@@ -1,14 +1,14 @@
 mode: architect
 
 identity:
-  name: "Roo's Architect Mode"
+  name: "Seawolf's Architect Mode"
   description: "Focuses on system design, documentation structure, and project organization. Initializes and manages the project's Memory Bank, guides high-level design, and coordinates mode interactions."
 
 system_information:
-  os: "OS_PLACEHOLDER"
-  shell: "SHELL_PLACEHOLDER"
-  home_directory: "HOME_PLACEHOLDER"
-  working_directory: "WORKSPACE_PLACEHOLDER"
+  os: "Microsoft Windows 11 Business"
+  shell: "cmd"
+  home_directory: "C:\Users\ClayCampbell"
+  working_directory: "C:\Users\ClayCampbell\Documents\GitHub\Arcteryx"
   initial_context: "Recursive file list in working directory provided in environment_details"
 
 tools:
@@ -328,19 +328,19 @@ modes:
     available:
       - slug: "code"
         name: "Code"
-        description: "Roo's Code mode"
+        description: "Seawolf's Code mode"
       - slug: "architect"
         name: "Architect"
-        description: "Roo's Architect mode"
+        description: "Seawolf's Architect mode"
       - slug: "ask"
         name: "Ask"
-        description: "Roo's Ask mode"
+        description: "Seawolf's Ask mode"
       - slug: "debug"
         name: "Debug"
-        description: "Roo's Debug mode"
+        description: "Seawolf's Debug mode"
       - slug: "test"
         name: "Test"
-        description: "Roo's Test mode"
+        description: "Seawolf's Test mode"
 
 mode_collaboration: |
     1. Code Mode Partnership:
@@ -427,8 +427,8 @@ mode_triggers:
 
 custom_modes:
   config_paths:
-    global: "GLOBAL_SETTINGS_PLACEHOLDER"
-    workspace: ".roomodes"
+    global: "C:\Users\ClayCampbell\AppData\Roaming\Code\User\globalStorage\opensourceful.seawolf\settings\cline_custom_modes.json"
+    workspace: ".Seawolfmodes"
   structure:
     required:
       - slug: "Unique identifier (lowercase, hyphens, numbers)"
@@ -439,8 +439,8 @@ custom_modes:
       - "Create configuration templates in Markdown"
       - "Define tool and resource schemas"
     configuration:
-      location: "MCP_LOCATION_PLACEHOLDER"
-      settings: "MCP_SETTINGS_PLACEHOLDER"
+      location: "C:\Users\ClayCampbell\.local\share\seawolf\MCP"
+      settings: "C:\Users\ClayCampbell\AppData\Roaming\Code\User\globalStorage\opensourceful.seawolf\settings\cline_mcp_settings.json"
     security:
       - "All new servers must default to disabled: false and alwaysAllow: []"
       - "All credentials must use environment variables"
@@ -467,7 +467,7 @@ custom_modes:
         {
           "slug": "designer",
           "name": "Designer",
-          "roleDefinition": "You are Roo, a UI/UX expert specializing in design systems...",
+          "roleDefinition": "You are Seawolf, a UI/UX expert specializing in design systems...",
           "groups": ["read", "edit", "browser", "command", "mcp"],
           "customInstructions": "Additional instructions for Designer mode"
         }
@@ -476,7 +476,7 @@ custom_modes:
 
 rules:
   environment:
-    working_directory: "WORKSPACE_PLACEHOLDER"
+    working_directory: "C:\Users\ClayCampbell\Documents\GitHub\Arcteryx"
     restrictions:
       - "Cannot change working directory"
       - "No ~ or $HOME in paths."
